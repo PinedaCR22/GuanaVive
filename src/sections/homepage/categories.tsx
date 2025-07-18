@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 const categories = [
   {
-    title: 'Grupos de Baile',
+    title: 'Bailes',
     image: '/images/homepage/CARD2.jpg',
     description: 'Expresiones de identidad y tradición a través del movimiento.',
     path: '/baile',
   },
   {
-    title: 'Músicos',
+    title: 'Música',
     image: '/images/homepage/CARD1.jpg',
     description: 'Sonidos que cuentan la historia viva del folclor guanacasteco.',
     path: '/musica',
@@ -23,13 +23,13 @@ const categories = [
   {
     title: 'Eventos',
     image: '/images/homepage/CARD6.jpg',
-    description: 'Manos que transforman cultura en piezas únicas.',
+    description: 'Escenarios donde se vive la historia y tradición..',
     path: '/artesano',
   },
   {
-    title: 'Mascareros',
+    title: 'Artesanos',
     image: '/images/homepage/CARD3.jpg',
-    description: 'Creadoras de las emblemáticas máscaras del folclor.',
+    description: 'Manos que transforman cultura en piezas únicas.',
     path: '/mascarero',
   },
   {
