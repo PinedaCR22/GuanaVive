@@ -1,9 +1,6 @@
+import { GRUPOS_BAILE } from '../data/databaile'
+import FolklorTable from '../components/FolklorTable'
 
-
-const baile = () => {
-  return (
-    <div>baile</div>
-  )
+export default function BailePage() {
+  return <FolklorTable title="Grupos de Baile" data={GRUPOS_BAILE} />
 }
-
-export default baile
