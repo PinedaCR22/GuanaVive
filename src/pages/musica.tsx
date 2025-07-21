@@ -1,9 +1,6 @@
+import { MUSICOS } from '../data/datamusica'
+import FolklorTable from '../components/FolklorTable'
 
-
-const musica = () => {
-  return (
-    <div>musica</div>
-  )
+export default function MusicaPage() {
+  return <FolklorTable title="Músicos Folklóricos" data={MUSICOS} />
 }
-
-export default musica
