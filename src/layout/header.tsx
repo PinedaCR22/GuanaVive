@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full px-6 py-8 shadow-md transition-colors duration-300 bg-white`}
+    className={`w-full px-6 py-8 transition-colors duration-300 bg-transparent shadow-none`}
     >
       <div className="flex flex-wrap justify-between items-center gap-4">
         <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-[#1c7ab9] via-[#1c7ab9] to-[#e32636] text-transparent bg-clip-text drop-shadow-lg">Vive Guanacaste</h1>
