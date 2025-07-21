@@ -3,11 +3,15 @@ import CategoriesSection from '../sections/homepage/categories'
 import FeaturedSection from '../sections/homepage/featured'
 import SponsorsSection from '../sections/homepage/sponsors'
 import MapPage from '../sections/homepage/map'
+import EstoEsGuanacaste from '../sections/homepage/estoesguanacaste'
+import ConoceMasSobreGuanacaste from '../sections/homepage/conocemassobreguanacaste.tsx'
 
 const Homepage = () => {
   return (
     <div>
       <HeroSection />
+      <EstoEsGuanacaste />
+      <ConoceMasSobreGuanacaste />
       <CategoriesSection />
       <FeaturedSection />
       <SponsorsSection />
