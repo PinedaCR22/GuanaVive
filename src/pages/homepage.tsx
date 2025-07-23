@@ -5,7 +5,7 @@ import SponsorsSection from '../sections/homepage/sponsors'
 import MapPage from '../sections/homepage/map'
 import EstoEsGuanacaste from '../sections/homepage/estoesguanacaste'
 import ConoceMasSobreGuanacaste from '../sections/homepage/conocemassobreguanacaste.tsx'
-
+import GalleryPreview from '../sections/galeria/GalleryPreview.tsx'
 const Homepage = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const Homepage = () => {
       <ConoceMasSobreGuanacaste />
       <CategoriesSection />
       <FeaturedSection />
+      <GalleryPreview />
       <SponsorsSection />
       <MapPage />
       {/* Aquí puedes agregar más secciones si es necesario */}
