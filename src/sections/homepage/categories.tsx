@@ -23,14 +23,14 @@ const categories = [
   {
     title: 'Eventos',
     image: '/images/homepage/CARD6.jpg',
-    description: 'Escenarios donde se vive la historia y tradición..',
-    path: '/artesano',
+    description: 'Escenarios donde se vive la historia y tradición.',
+    path: '/evento', // ✅ corregido
   },
   {
     title: 'Artesanos',
     image: '/images/homepage/CARD3.jpg',
     description: 'Manos que transforman cultura en piezas únicas.',
-    path: '/mascarero',
+    path: '/artesano', // ✅ corregido
   },
   {
     title: 'Haciendas',
@@ -39,6 +39,7 @@ const categories = [
     path: '/hacienda',
   },
 ]
+
 
 const CategoriesSection = () => {
   return (

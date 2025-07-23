@@ -1,9 +1,6 @@
+import { RETAHILEROS } from '../data/dataretahilero'
+import FolklorTable from '../components/FolklorTable'
 
-
-const retahilero = () => {
-  return (
-    <div>retahilero</div>
-  )
+export default function RetahileroPage() {
+  return <FolklorTable title="Retahileros de Guanacaste" data={RETAHILEROS} />
 }
-
-export default retahilero

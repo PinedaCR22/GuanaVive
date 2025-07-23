@@ -1,9 +1,6 @@
+import { HACIENDAS } from '../data/datahacienda'
+import FolklorTable from '../components/FolklorTable'
 
-
-const hacienda = () => {
-  return (
-    <div>hacienda</div>
-  )
+export default function HaciendaPage() {
+  return <FolklorTable title="Haciendas Tradicionales" data={HACIENDAS} />
 }
-
-export default hacienda

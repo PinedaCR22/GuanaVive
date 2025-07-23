@@ -35,7 +35,7 @@ const HeroSection = () => {
           Descubre la riqueza cultural de la provincia más auténtica de Costa Rica, donde las tradiciones ancestrales florecen bajo la sombra del majestuoso árbol nacional.
         </p>
         <div className="flex flex-col md:flex-row gap-4 mb-8 w-full max-w-4xl justify-center">
-          {heroCategories.map((cat, idx) => (
+          {heroCategories.map((cat) => (
             <div
               key={cat.title}
               className="flex-1 bg-white/10 backdrop-blur-md rounded-xl p-6 min-w-[200px] border border-white/20 shadow-lg"
