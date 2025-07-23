@@ -27,7 +27,7 @@ const HeroSection = () => {
   }
 
   return (
-    <section className="relative w-full h-[100vh] bg-cover bg-center" style={{ backgroundImage: "url('/images/homepage/CARD5.jpg')" }}>
+    <section className="relative w-full h-[100vh] bg-cover bg-center" style={{ backgroundImage: "url(https://i.ibb.co/tjWn2sQ/arbol1.jpg)" }}>
       <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white px-4 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-2 drop-shadow-lg">Guanacaste</h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-[#ffe066] drop-shadow-lg">Tierra del Sol y la Cultura</h2>
@@ -54,9 +54,7 @@ const HeroSection = () => {
         >
           Explorar Nuestra Cultura
         </motion.button>
-        <div className="mt-2 text-sm text-[#ffe066] drop-shadow">
-          Bajo la sombra del <i>Enterolobium cyclocarpum</i>
-        </div>
+
         <motion.button
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
