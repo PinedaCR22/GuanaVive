@@ -11,10 +11,10 @@ const Homepage = () => {
       <HeroSection />
       <CategoriesSection />
       <FeaturedSection />
+      <ConoceMasSobreGuanacaste />
+      <EstoEsGuanacaste />
       <GalleryPreview />
       <SponsorsSection />
-      <ConoceMasSobreGuanacaste />
-                  <EstoEsGuanacaste />
     </div>
   )
 }
