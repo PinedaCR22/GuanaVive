@@ -15,6 +15,7 @@ const AppRoutes = () => {
       <Routes>
         <Route element={<GlobalLayout />}>
           <Route path="/" element={<HomePage />} />
+          {/* Aquí puedes agregar más rutas hijas */}
           <Route path="/artesano" element={<ArtesanoPage />} />
           <Route path="/baile" element={<BailePage />} />
           <Route path="/musica" element={<MusicaPage />} />
