@@ -24,6 +24,7 @@ const AppRoutes = () => {
           <Route path="/hacienda" element={<HaciendaPage />} />
           <Route path="/evento" element={<EventoPage />} />
           <Route path="/galeria" element={<GaleriaPage />} />
+          <Route path="/descubrir" element={<GaleriaPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>
