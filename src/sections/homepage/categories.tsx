@@ -65,7 +65,7 @@ const CategoriesSection = () => {
                 <p className="text-sm text-gray-600 mb-3">{cat.description}</p>
                 <Link
                   to={cat.path}
-                  className="inline-block px-4 py-2 bg-[#1c7ab9] text-white rounded hover:bg-[#10649c] transition"
+                  className="inline-block px-4 py-2 bg-[#e6f4fa] text-[#1c7ab9] rounded-full shadow-md hover:bg-[#1c7ab9] hover:text-white transition"
                 >
                   Ver más
                 </Link>

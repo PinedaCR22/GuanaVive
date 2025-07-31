@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { LightModeContext } from './global'
 import { FaMoon, FaSun } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
@@ -22,12 +22,25 @@ const Header = () => {
     { to: '/contacto', label: t('contacto') },
   ]
 
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <header
-    className={`w-full px-6 py-8 transition-colors duration-300 bg-transparent shadow-none`}
+      className={`fixed top-0 left-0 w-full z-50 px-6 py-3 transition-all duration-300
+        ${scrolled ? 'backdrop-blur-md bg-white/60 shadow-lg' : 'bg-transparent shadow-none'}
+      `}
+      style={{ WebkitBackdropFilter: scrolled ? 'blur(8px)' : 'none' }}
     >
       <div className="flex flex-wrap justify-between items-center gap-4">
-        <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-[#1c7ab9] via-[#1c7ab9] to-[#e32636] text-transparent bg-clip-text drop-shadow-lg">Vive Guanacaste</h1>
+        <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-[#1c7ab9] via-[#1c7ab9] to-[#e32636] text-transparent bg-clip-text drop-shadow-lg">Viva Guanacaste</h1>
         {/* Navegación */}
         <nav className="flex gap-6 text-base font-semibold">
           {navLinks.map((link, idx) => (

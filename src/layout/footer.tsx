@@ -8,11 +8,13 @@ const Footer = () => {
 
   return (
     <footer
-      className={`w-full text-center py-8 text-sm text-white transition-colors duration-300 ${
-        isLightMode ? 'bg-[#B91C1C]' : 'bg-[#7F1D1D]'
-      }`}
+      className="w-full text-center py-8 text-sm text-white"
+      style={{
+        background: 'linear-gradient(180deg, #e32636 0%, #ffffff 25%, #1c7ab9 50%, #3bb143 100%)',
+        boxShadow: '0 -2px 12px rgba(0,0,0,0.08)'
+      }}
     >
-      <p>{t('text', '© 2025 Vive Guanacaste. Todos los derechos reservados.')}</p>
+      <p style={{textShadow: '0 2px 8px rgba(0,0,0,0.18)'}}>{t('text', '© 2025 Vive Guanacaste. Todos los derechos reservados.')}</p>
     </footer>
   )
 }

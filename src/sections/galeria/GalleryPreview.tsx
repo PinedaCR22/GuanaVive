@@ -41,7 +41,7 @@ export default function GalleryPreview() {
 
         <div className="text-center mt-12">
           <Link to="/galeria">
-            <button className="inline-block px-5 py-2 bg-[#1c7ab9] text-white rounded hover:bg-[#10649c] transition">
+            <button className="inline-block px-5 py-2 bg-[#e6f4fa] text-[#1c7ab9] rounded-full shadow-md hover:bg-[#1c7ab9] hover:text-white transition">
               Ver más
             </button>
           </Link>

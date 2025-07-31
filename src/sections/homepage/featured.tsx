@@ -48,7 +48,7 @@ const FeaturedSection = () => {
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                   <p className="text-gray-600 mb-4">{item.location}</p>
-                  <button className="inline-block px-4 py-2 bg-[#1c7ab9] text-white rounded hover:bg-[#10649c] transition">
+                  <button className="inline-block px-4 py-2 bg-[#e6f4fa] text-[#1c7ab9] rounded-full shadow-md hover:bg-[#1c7ab9] hover:text-white transition">
                     Ver más
                   </button>
                 </div>
