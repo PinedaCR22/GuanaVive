@@ -9,6 +9,7 @@ import RetahileroPage from '../pages/retahilero'
 import HaciendaPage from '../pages/hacienda'
 import EventoPage from '../pages/evento'
 import GaleriaPage from '../pages/galeria'
+import ContactForm from '../components/ContacForm'
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
           <Route path="/hacienda" element={<HaciendaPage />} />
           <Route path="/evento" element={<EventoPage />} />
           <Route path="/galeria" element={<GaleriaPage />} />
+          <Route path="/ContacForm" element={<ContactForm />} /> {/* Ruta por defecto */}
         </Route>
       </Routes>
     </BrowserRouter>

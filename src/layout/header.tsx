@@ -19,7 +19,7 @@ const Header = () => {
     { to: '/descubrir', label: t('descubrir') },
     { to: '/historia', label: t('historia') },
     { to: '/galeria', label: t('galeria') },
-    { to: '/contacto', label: t('contacto') },
+    { to: '/ContacForm', label: t('contacto') },
   ]
 
   return (

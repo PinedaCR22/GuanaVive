@@ -5,6 +5,7 @@ import SponsorsSection from '../sections/homepage/sponsors'
 import EstoEsGuanacaste from '../sections/homepage/estoesguanacaste'
 import ConoceMasSobreGuanacaste from '../sections/homepage/conocemassobreguanacaste.tsx'
 import GalleryPreview from '../sections/galeria/GalleryPreview.tsx'
+import ContactForm from '../components/ContacForm.tsx'
 const Homepage = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Homepage = () => {
       <EstoEsGuanacaste />
       <GalleryPreview />
       <SponsorsSection />
+      <ContactForm/>
     </div>
   )
 }
